@@ -34,7 +34,7 @@ public class DialogueManager : MonoBehaviour
         dialogueText = GetComponentInChildren<TMP_Text>();
 
         group.alpha = 0;
-
+        print(GameObject.Find("Player Data").GetComponent<PlayerData>().currentScene - 1);
         try{StartDialogue(dayStartDialogue[GameObject.Find("Player Data").GetComponent<PlayerData>().currentScene - 1]);}
         catch{print("NO DIALOGUE FOR THIS SCREEN TODAY, (maybe come back tommorow?)");}
     }
@@ -60,7 +60,7 @@ public class DialogueManager : MonoBehaviour
 
         if(inDialogue)
         {
-            characterImage.texture = poses[(int)curDialogue.dialogue[dialogueNum].pose].texture;
+            //characterImage.texture = poses[(int)curDialogue.dialogue[dialogueNum].pose].texture;
             group.alpha = Mathf.Lerp(group.alpha, 1, Time.deltaTime * 5f);
             dialogueText.text = curDialogue.dialogue[dialogueNum].dialogue.Substring(0,Math.Min(curDialogue.dialogue[dialogueNum].dialogue.Length, (int)(curDialogue.dialogue[dialogueNum].dialogue.Length * (percentThroughDialogue / 100.0))));
             
@@ -80,6 +80,7 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(DialogueObject dialogue)
     {
+        print("started");
         group.alpha = 1;
 
         curDialogue = dialogue;
