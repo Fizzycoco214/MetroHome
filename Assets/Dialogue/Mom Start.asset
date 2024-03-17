@@ -12,4 +12,40 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 068c6fd8030b90844a2a9054be6cb558, type: 3}
   m_Name: Mom Start
   m_EditorClassIdentifier: 
-  dialogue: []
+  dialogue:
+  - pose: 0
+    dialogue: "Hey mom! I\u2019m back from school. Sorry I\u2019m a little late,
+      I got caught up."
+  - pose: 1
+    dialogue: Mhm, you can tell me all about it over dinner young man.
+  - pose: 0
+    dialogue: Actually, can I show you something now?
+  - pose: 1
+    dialogue: 'Sure honey, let me pull up a chair.
+
+      What is it?
+
+'
+  - pose: 0
+    dialogue: "It\u2019s an assignment for my music class. Its been really fun so
+      far!"
+  - pose: 1
+    dialogue: Another one? Were you stuck late in that class again? You know you
+      really need to focus on the classes that are important.
+  - pose: 1
+    dialogue: "This music class might be fun but it won\u2019t put food on the table.\r"
+  - pose: 0
+    dialogue: Mom, didn't you used to love piano?
+  - pose: 1
+    dialogue: 'Thats not important right now honey.
+
+      I know you like your music
+      class, but you need to focus on the skills that are really valuable, like your
+      math and your science.'
+  - pose: 0
+    dialogue: 'Can I atleast play you this one song?
+
+'
+  - pose: 1
+    dialogue: "Well, as long as it doesn\u2019t take too long I guess there\u2019s
+      no harm.\r\nPlay away.\r\n"

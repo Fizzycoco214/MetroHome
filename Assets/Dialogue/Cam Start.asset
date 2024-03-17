@@ -12,4 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 068c6fd8030b90844a2a9054be6cb558, type: 3}
   m_Name: Cam Start
   m_EditorClassIdentifier: 
-  dialogue: []
+  dialogue:
+  - pose: 0
+    dialogue: Looks like another artist up ahead.
+  - pose: 1
+    dialogue: Careful! Try not to get in the shot!
+  - pose: 0
+    dialogue: "Sorry! What are you working on?\r"
+  - pose: 1
+    dialogue: "Just some photos, can\u2019t seem to get any interesting ones though.
+      There\u2019s nothing worth taking pics of around here. None of these shots
+      have any flair.\r"
+  - pose: 0
+    dialogue: You know, I met someone a lot like you a few blocks ago. This might
+      sound a bit strange, but can I play something for you?
+  - pose: 1
+    dialogue: "On that keyboard? Sure. I guess so. I\u2019ve got some time anyways.\r\n"

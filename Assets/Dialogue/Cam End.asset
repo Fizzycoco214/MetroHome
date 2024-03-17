@@ -12,4 +12,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 068c6fd8030b90844a2a9054be6cb558, type: 3}
   m_Name: Cam End
   m_EditorClassIdentifier: 
-  dialogue: []
+  dialogue:
+  - pose: 1
+    dialogue: "Dude! Watching you get into that was amazing! Look at these shots
+      I got! \r"
+  - pose: 0
+    dialogue: "I always hate how I look in photos. Those aren\u2019t too bad though.
+      You must have got my good side. \r\n"
+  - pose: 1
+    dialogue: 'Damn right I got your good side! This is just what I needed! '
+  - pose: 1
+    dialogue: "Seeing you like that, it\u2019s really inspiring man. Thank you."
+  - pose: 0
+    dialogue: "I\u2019m glad I could help!"
+  - pose: 0
+    dialogue: Wow
+  - pose: 0
+    dialogue: This is going pretty great!
