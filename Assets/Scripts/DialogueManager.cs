@@ -10,6 +10,7 @@ using UnityEngine.UI;
 public class DialogueManager : MonoBehaviour
 {
     public bool inDialogue = false;
+    public bool endOfScene = false;
     DialogueObject curDialogue;
     public DialogueObject[] dayStartDialogue;
 
@@ -23,6 +24,7 @@ public class DialogueManager : MonoBehaviour
     public float fadeSpeed;
 
     public UnityEvent onDialogueEnd;
+    public UnityEvent onSceneEnd;
 
 
     CanvasGroup group;
@@ -59,7 +61,15 @@ public class DialogueManager : MonoBehaviour
             if(inDialogue && dialogueNum >= curDialogue.dialogue.Length)
             {
                 inDialogue = false;
-                onDialogueEnd.Invoke();
+                if(endOfScene)
+                {
+                    onSceneEnd.Invoke();
+                }
+                else
+                {
+                    onDialogueEnd.Invoke();
+                    endOfScene = true;
+                }
             }
         }
 

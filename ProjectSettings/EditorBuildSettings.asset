@@ -14,4 +14,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DialogScene.unity
     guid: 32c468cc7a0b2964f97e14fc79202732
+  - enabled: 1
+    path: Assets/Scenes/Levels/Cam.unity
+    guid: 721d1a3171b55ee4895b79ccc6d581ac
+  - enabled: 1
+    path: Assets/Scenes/Levels/Graffiti.unity
+    guid: 73dac323a14e11f4cba0254d8708fd81
+  - enabled: 1
+    path: Assets/Scenes/Levels/Mother.unity
+    guid: 8ce426dba350af24689ae8d16b147ebf
   m_configObjects: {}
