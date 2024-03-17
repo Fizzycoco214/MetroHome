@@ -21,7 +21,6 @@ public class BackGroundSwitcher : MonoBehaviour
     void Start()
     {
         renderer = GetComponent<SpriteRenderer>();
-        FadeToBlack();
     }
 
     // Update is called once per frame

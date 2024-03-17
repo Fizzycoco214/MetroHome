@@ -20,6 +20,7 @@ public class DialogueManager : MonoBehaviour
 
     float percentThroughDialogue = 0;
     public float textSpeed;
+    public float fadeSpeed;
 
     public UnityEvent onDialogueEnd;
 
@@ -64,12 +65,12 @@ public class DialogueManager : MonoBehaviour
 
         if(inDialogue)
         {
-            //characterImage.texture = poses[(int)curDialogue.dialogue[dialogueNum].pose].texture;
-            group.alpha = Mathf.Lerp(group.alpha, 1, Time.deltaTime * 5f);
+            characterImage.texture = poses[(int)curDialogue.dialogue[dialogueNum].pose].texture;
+            group.alpha = Mathf.Lerp(group.alpha, 1, Time.deltaTime * fadeSpeed);
             dialogueText.text = curDialogue.dialogue[dialogueNum].dialogue.Substring(0,Math.Min(curDialogue.dialogue[dialogueNum].dialogue.Length, (int)(curDialogue.dialogue[dialogueNum].dialogue.Length * (percentThroughDialogue / 100.0))));
             
 
-            if(percentThroughDialogue < 100)
+            if(percentThroughDialogue < 100 && group.alpha > 0.9)
             {
                 percentThroughDialogue += textSpeed * Time.deltaTime / (curDialogue.dialogue[dialogueNum].dialogue.Length / 25.0f);
             }
@@ -78,14 +79,14 @@ public class DialogueManager : MonoBehaviour
         else
         {
             group.blocksRaycasts = false;
-            group.alpha = Mathf.Lerp(group.alpha, 0, Time.deltaTime * 5f);
+            group.alpha = Mathf.Lerp(group.alpha, 0, Time.deltaTime * fadeSpeed);
         }
     }
 
     public void StartDialogue(DialogueObject dialogue)
     {
         print("started");
-        group.alpha = 1;
+        group.alpha = 0;
 
         curDialogue = dialogue;
         inDialogue = true;

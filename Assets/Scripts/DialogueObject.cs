@@ -15,10 +15,8 @@ public class DialogueObject : ScriptableObject
     {
         public enum Pose
         {
-            normal = 0,
-            laugh = 1,
-            sad = 2,
-            thumbsUp = 3,
+            playerCharacter = 0,
+            otherCharacter = 1
         }
 
         public Pose pose;
