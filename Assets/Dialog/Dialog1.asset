@@ -13,7 +13,27 @@ MonoBehaviour:
   m_Name: Dialog1
   m_EditorClassIdentifier: 
   dialogue:
-  - pose: 0
-    dialogue: Test Test afhweaiofdsjanfwae  auirhafjksd weah rfowdf s
   - pose: 1
-    dialogue: faweffwa eaf
+    dialogue: '*sigh*'
+  - pose: 1
+    dialogue: Nothing seems right.
+  - pose: 0
+    dialogue: "What\u2019s wrong? I love what you have so far!"
+  - pose: 1
+    dialogue: "That\u2019s exactly the problem, nothing I add seems to fit. I just
+      can\u2019t get inspired.\r"
+  - pose: 0
+    dialogue: "That\u2019s a shame. You know, I\u2019m sure if you keep at it you\u2019ll
+      find something. \nI\u2019m actually learning to be an artist too. Stuff like
+      this has always inspired me.\r\n"
+  - pose: 1
+    dialogue: "That really means a lot. Its nice to meet a young artist.\n Is that
+      keyboard what you\u2019re working with?\r\n"
+  - pose: 0
+    dialogue: "Yeah it is. \nI\u2019m still just learning though."
+  - pose: 0
+    dialogue: 'I could play a bit for you if you''d like. '
+  - pose: 1
+    dialogue: 'Sure, lets see what you''ve got.
+
+      Maybe it''ll cheer us up.'
