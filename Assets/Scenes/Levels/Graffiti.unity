@@ -1348,7 +1348,7 @@ MonoBehaviour:
   inDialogue: 0
   endOfScene: 0
   dayStartDialogue:
-  - {fileID: 11400000, guid: 284007e221d95b24a9e7f6ec082bec0e, type: 2}
+  - {fileID: 11400000, guid: be58f4a96210c6b4f8dff4ad2d4343a4, type: 2}
   poses:
   - {fileID: 21300000, guid: fad846e48fc0e3c419a9e0ffd56af9f5, type: 3}
   - {fileID: 21300000, guid: c757e88220d9b0f4499ce30936d6922f, type: 3}
