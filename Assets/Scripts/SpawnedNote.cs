@@ -11,7 +11,6 @@ public class SpawnedNote : MonoBehaviour
         transform.position += Vector3.down * speed * Time.deltaTime;
         if(transform.position.y < -10)
         {
-            print("ok i done now");
             Destroy(gameObject);
         }
     }

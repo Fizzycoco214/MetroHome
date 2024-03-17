@@ -8,6 +8,10 @@ public class NoteManager : MonoBehaviour
     PianoInput inputManager;
     public GameObject notePrefab;
     public Song currentSong;
+    public float startFlowTime = 0;
+    public float endFlowTime = 0;
+
+
     bool songStarted = false;
     AudioSource audioSource;
     public float noteSpeed = 2;
@@ -32,6 +36,17 @@ public class NoteManager : MonoBehaviour
         {
             print("song ended");
             songStarted = false;
+        }
+        else 
+        {
+            if(Time.time - startTime > startFlowTime && !inputManager.inFlow)
+            {
+                inputManager.inFlow = true;
+            }
+            if(Time.time - startTime > endFlowTime && inputManager.inFlow)
+            {
+                inputManager.inFlow = false;
+            }
         }
     }
 

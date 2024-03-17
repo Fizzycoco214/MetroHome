@@ -720,13 +720,13 @@ MonoBehaviour:
     havePlayed: 0
   - time: 99
     duration: 1.5
-    note: 11
+    note: 0
     havePlayed: 0
   - time: 99
     duration: 1.5
-    note: 11
+    note: 2
     havePlayed: 0
   - time: 99
     duration: 1.5
-    note: 11
+    note: 4
     havePlayed: 0

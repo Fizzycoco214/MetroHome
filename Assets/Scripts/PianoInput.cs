@@ -9,6 +9,7 @@ public class PianoInput : MonoBehaviour
     public float scoreForNote = 2;
     public float scoreForHold = 0.2f;
     public float penaltyForMissedNote = -1;
+    public bool inFlow = false;
 
 
     public key[] keys;
