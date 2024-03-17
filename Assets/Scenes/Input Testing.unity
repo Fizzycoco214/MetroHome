@@ -255,7 +255,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   notePrefab: {fileID: 7225981801764626988, guid: c9912d1da4f234d41b11245cbb6002f8, type: 3}
-  currentSong: {fileID: 11400000, guid: e6f7ea7414f60404bb5669f5701623fc, type: 2}
+  currentSong: {fileID: 11400000, guid: e1ba0512908e3a14a950bc95fd07ab34, type: 2}
   noteSpeed: 5
 --- !u!4 &879357119
 Transform:

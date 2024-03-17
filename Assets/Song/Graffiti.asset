@@ -158,19 +158,131 @@ MonoBehaviour:
     duration: 0.1
     note: 5
     havePlayed: 0
-  - time: 100
-    duration: 100
+  - time: 69.333
+    duration: 0.667
+    note: 4
+    havePlayed: 0
+  - time: 70
+    duration: 0.333
+    note: 2
+    havePlayed: 0
+  - time: 70.333
+    duration: 1.667
+    note: 5
+    havePlayed: 0
+  - time: 72
+    duration: 1
+    note: 0
+    havePlayed: 0
+  - time: 73
+    duration: 1.667
+    note: 1
+    havePlayed: 0
+  - time: 76
+    duration: 1.5
+    note: 5
+    havePlayed: 0
+  - time: 78.667
+    duration: 0.166
+    note: 6
+    havePlayed: 0
+  - time: 79
+    duration: 0.166
     note: 7
     havePlayed: 0
-  - time: 100
-    duration: 100
+  - time: 79.333
+    duration: 0.166
+    note: 8
+    havePlayed: 0
+  - time: 79.667
+    duration: 0.333
+    note: 10
+    havePlayed: 0
+  - time: 80
+    duration: 0.667
+    note: 9
+    havePlayed: 0
+  - time: 80.667
+    duration: 0.166
     note: 7
     havePlayed: 0
-  - time: 100
-    duration: 100
+  - time: 80.833
+    duration: 0.166
+    note: 9
+    havePlayed: 0
+  - time: 81
+    duration: 1
     note: 7
     havePlayed: 0
-  - time: 100
-    duration: 100
+  - time: 82
+    duration: 0.166
+    note: 5
+    havePlayed: 0
+  - time: 82.167
+    duration: 0.166
     note: 7
+    havePlayed: 0
+  - time: 82.333
+    duration: 1
+    note: 5
+    havePlayed: 0
+  - time: 83.333
+    duration: 0.166
+    note: 4
+    havePlayed: 0
+  - time: 83.5
+    duration: 0.166
+    note: 5
+    havePlayed: 0
+  - time: 83.667
+    duration: 1.667
+    note: 4
+    havePlayed: 0
+  - time: 86.667
+    duration: 0.166
+    note: 1
+    havePlayed: 0
+  - time: 87.333
+    duration: 0.166
+    note: 2
+    havePlayed: 0
+  - time: 88
+    duration: 0.166
+    note: 3
+    havePlayed: 0
+  - time: 88.333
+    duration: 0.166
+    note: 4
+    havePlayed: 0
+  - time: 89
+    duration: 0.166
+    note: 5
+    havePlayed: 0
+  - time: 89.667
+    duration: 0.166
+    note: 7
+    havePlayed: 0
+  - time: 90.333
+    duration: 1
+    note: 4
+    havePlayed: 0
+  - time: 91.667
+    duration: 0.166
+    note: 2
+    havePlayed: 0
+  - time: 92
+    duration: 0.166
+    note: 7
+    havePlayed: 0
+  - time: 92.333
+    duration: 1.667
+    note: 8
+    havePlayed: 0
+  - time: 94
+    duration: 0.667
+    note: 2
+    havePlayed: 0
+  - time: 94.667
+    duration: 2.66
+    note: 0
     havePlayed: 0
