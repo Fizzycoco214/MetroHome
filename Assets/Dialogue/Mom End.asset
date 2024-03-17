@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 068c6fd8030b90844a2a9054be6cb558, type: 3}
+  m_Name: Mom End
+  m_EditorClassIdentifier: 
+  dialogue:
+  - pose: 0
+    dialogue: See! Wasn't that fun!
+  - pose: 1
+    dialogue: Looks like I still got it!
+  - pose: 1
+    dialogue: ...
+  - pose: 1
+    dialogue: You know honey, I wanted to chase my dreams like you.
+  - pose: 1
+    dialogue: But you can't exactly raise a family at the same time.
+  - pose: 1
+    dialogue: You got real lucky to get into that class, I just don't want you to
+      have to make the same decision I did.
+  - pose: 1
+    dialogue: I know you can do this sweetie, just be sure to keep up those grades
+      too alright?
+  - pose: 0
+    dialogue: I will!
+  - pose: 1
+    dialogue: Love you sweetie.
+  - pose: 0
+    dialogue: Love you mom!

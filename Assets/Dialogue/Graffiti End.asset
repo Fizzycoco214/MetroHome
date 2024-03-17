@@ -14,10 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - pose: 1
-    dialogue: Wow kid you really have the skills to be the piano man
+    dialogue: And finished!
+  - pose: 0
+    dialogue: Nice work!
+  - pose: 1
+    dialogue: Thanks!
+  - pose: 1
+    dialogue: You know you really have a gift with that keyboard.
   - pose: 0
     dialogue: Really?
   - pose: 1
-    dialogue: Nah nevermind
-  - pose: 1
-    dialogue: Bro can't even play the Buddly Holly riff
+    dialogue: Not veryone gets that kind of opportunity too, be sure to not waste
+      it.
+  - pose: 0
+    dialogue: I will!

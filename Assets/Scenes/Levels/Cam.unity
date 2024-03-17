@@ -555,7 +555,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -183
-  m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9c3fc29aaaf417d4f967ddcb81634a14, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -575,9 +575,9 @@ Transform:
   m_GameObject: {fileID: 832600383}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0181, y: -0.0709, z: 0}
-  m_LocalScale: {x: 17.7761, y: 10.061448, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 0.0181, y: 0.71, z: 0}
+  m_LocalScale: {x: 1.09, y: 1.09, z: 1.09}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -594,7 +594,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fadeSpeed: 2
-  endBackground: {fileID: 21300000, guid: d2096172c7fc9204ab06bf4ef292d7ee, type: 3}
+  endBackground: {fileID: 21300000, guid: 3c3997e306fc3b34b94a1724fd223f77, type: 3}
   fade: 0
 --- !u!1001 &1215448469
 PrefabInstance:
@@ -739,8 +739,8 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 469886964}
-  - {fileID: 385761776}
   - {fileID: 1356665427}
+  - {fileID: 385761776}
   m_Father: {fileID: 1565583445}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -916,6 +916,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7322634484837597966, guid: 517c122386f0bd64a86e53db2e08ca42, type: 3}
+      propertyPath: noteOffset
+      value: -0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7322634484837597966, guid: 517c122386f0bd64a86e53db2e08ca42, type: 3}
       propertyPath: currentSong
       value: 
       objectReference: {fileID: 11400000, guid: 052253cf6a571ae40a70b49d8d2baef1, type: 2}
@@ -1002,7 +1006,7 @@ PrefabInstance:
     - target: {fileID: 7322634484837597966, guid: 517c122386f0bd64a86e53db2e08ca42, type: 3}
       propertyPath: onSongEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 11400000, guid: 4d1eea35b7530444f9de40d355c40eec, type: 2}
+      objectReference: {fileID: 11400000, guid: 9e62cee7faa61a848b7414f10e15f2a6, type: 2}
     - target: {fileID: 7322634484837597966, guid: 517c122386f0bd64a86e53db2e08ca42, type: 3}
       propertyPath: onFlowEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
@@ -1103,8 +1107,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 12.0891}
-  m_SizeDelta: {x: 251.4236, y: 334.7783}
+  m_AnchoredPosition: {x: 0, y: 135.25}
+  m_SizeDelta: {x: 809.5032, y: 809.5032}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &1356665428
 MonoBehaviour:
@@ -1119,14 +1123,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9811321, g: 0.5229619, b: 0.5229619, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 94bc3f0cf3cddde4190a6c972811ce55, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1252,9 +1256,9 @@ MonoBehaviour:
   m_fontSize: 36
   m_fontSizeBase: 36
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 50
   m_fontStyle: 0
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
@@ -1352,9 +1356,9 @@ MonoBehaviour:
   inDialogue: 0
   endOfScene: 0
   dayStartDialogue:
-  - {fileID: 11400000, guid: 284007e221d95b24a9e7f6ec082bec0e, type: 2}
+  - {fileID: 11400000, guid: c6053620ebd2d9c4393d81a58ebc028d, type: 2}
   poses:
-  - {fileID: 21300000, guid: 9f0e6b00863e5d44bb910d6a02b98934, type: 3}
+  - {fileID: 21300000, guid: fad846e48fc0e3c419a9e0ffd56af9f5, type: 3}
   - {fileID: 21300000, guid: 89be0b1cb0975664d98111cd197d9d95, type: 3}
   textSpeed: 50
   fadeSpeed: 3

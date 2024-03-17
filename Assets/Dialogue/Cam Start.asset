@@ -13,8 +13,6 @@ MonoBehaviour:
   m_Name: Cam Start
   m_EditorClassIdentifier: 
   dialogue:
-  - pose: 0
-    dialogue: Looks like another artist up ahead.
   - pose: 1
     dialogue: Careful! Try not to get in the shot!
   - pose: 0
@@ -24,7 +22,8 @@ MonoBehaviour:
       There\u2019s nothing worth taking pics of around here. None of these shots
       have any flair.\r"
   - pose: 0
-    dialogue: You know, I met someone a lot like you a few blocks ago. This might
-      sound a bit strange, but can I play something for you?
+    dialogue: This might sound a bit strange, but can I play something for you?
   - pose: 1
-    dialogue: "On that keyboard? Sure. I guess so. I\u2019ve got some time anyways.\r\n"
+    dialogue: 'On that keyboard? Sure. Come walk with me while I try to find a shot.
+
+'

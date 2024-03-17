@@ -12,6 +12,8 @@ public class NoteManager : MonoBehaviour
     public float startFlowTime = 0;
     public float endFlowTime = 0;
 
+    public float noteOffset = 0;
+
 
     public bool songStarted = false;
     AudioSource audioSource;
@@ -68,7 +70,7 @@ public class NoteManager : MonoBehaviour
        curNote.GetComponent<SpawnedNote>().noteManager = this;
        curNote.transform.position += new Vector3(0, duration * noteSpeed / 2f, 0);
 
-        curNote.transform.position += new Vector3(0, noteSpeed / 2, 0);
+        curNote.transform.position += new Vector3(0, noteSpeed / 2 + (noteOffset * noteSpeed), 0);
        
     }
 

@@ -14,8 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - pose: 1
-    dialogue: "Dude! Watching you get into that was amazing! Look at these shots
-      I got! \r"
+    dialogue: Got the shot!
   - pose: 0
     dialogue: "I always hate how I look in photos. Those aren\u2019t too bad though.
       You must have got my good side. \r\n"
@@ -25,7 +24,3 @@ MonoBehaviour:
     dialogue: "Seeing you like that, it\u2019s really inspiring man. Thank you."
   - pose: 0
     dialogue: "I\u2019m glad I could help!"
-  - pose: 0
-    dialogue: Wow
-  - pose: 0
-    dialogue: This is going pretty great!

@@ -19,7 +19,7 @@ MonoBehaviour:
   - pose: 1
     dialogue: Mhm, you can tell me all about it over dinner young man.
   - pose: 0
-    dialogue: Actually, can I show you something now?
+    dialogue: Actually, can I show you something?
   - pose: 1
     dialogue: 'Sure honey, let me pull up a chair.
 
@@ -33,7 +33,7 @@ MonoBehaviour:
     dialogue: Another one? Were you stuck late in that class again? You know you
       really need to focus on the classes that are important.
   - pose: 1
-    dialogue: "This music class might be fun but it won\u2019t put food on the table.\r"
+    dialogue: "That music class might be fun but it won\u2019t put food on the table.\r"
   - pose: 0
     dialogue: Mom, didn't you used to love piano?
   - pose: 1
@@ -42,6 +42,9 @@ MonoBehaviour:
       I know you like your music
       class, but you need to focus on the skills that are really valuable, like your
       math and your science.'
+  - pose: 1
+    dialogue: I know you like your music class, but you need to focus on the skills
+      that are really valuable.
   - pose: 0
     dialogue: 'Can I atleast play you this one song?
 
