@@ -1,14 +1,13 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor;
-using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class LevelTransition : MonoBehaviour
 {
-    SceneAsset scene;
+    String sceneName;
     public float fadeSpeed = 1.0f;
 
     bool isfading = false;
@@ -36,16 +35,16 @@ public class LevelTransition : MonoBehaviour
 
         if(isfading && t > 1.0f)
         {
-            SceneManager.LoadScene(scene.name);
+            SceneManager.LoadScene(sceneName);
         }
 
         t = Mathf.Clamp(t, 0.0f, 1.0f);
         blackScreen.color = Color.Lerp(Color.clear, Color.black, t);
     }
 
-    public void nextScene(SceneAsset scene)
+    public void nextScene(String name)
     {
-        this.scene = scene;
+        this.sceneName = name;
         isfading = true;
     }
 }

@@ -1383,13 +1383,13 @@ MonoBehaviour:
       - m_Target: {fileID: 1215448470}
         m_TargetAssemblyTypeName: LevelTransition, Assembly-CSharp
         m_MethodName: nextScene
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: 73dac323a14e11f4cba0254d8708fd81, type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEditor.SceneAsset, UnityEditor.CoreModule
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Graffiti
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1907045276 stripped
