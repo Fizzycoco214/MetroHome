@@ -23,6 +23,8 @@ MonoBehaviour:
       have any flair.\r"
   - pose: 0
     dialogue: This might sound a bit strange, but can I play something for you?
+  - pose: 0
+    dialogue: I just started a music class and I'm wanting to practice.
   - pose: 1
     dialogue: 'On that keyboard? Sure. Come walk with me while I try to find a shot.
 

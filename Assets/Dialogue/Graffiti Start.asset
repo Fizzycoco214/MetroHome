@@ -31,9 +31,9 @@ MonoBehaviour:
   - pose: 1
     dialogue: "That really means a lot. Its nice to meet a young artist.\n Is that
       keyboard what you\u2019re working with?\r\n"
-  - pose: 1
+  - pose: 0
     dialogue: Yeah!
-  - pose: 1
+  - pose: 0
     dialogue: I'm just starting out though.
   - pose: 0
     dialogue: I could play a bit for you if you'd like!

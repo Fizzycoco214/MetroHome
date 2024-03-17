@@ -13,8 +13,16 @@ MonoBehaviour:
   m_Name: Cam End
   m_EditorClassIdentifier: 
   dialogue:
+  - pose: 0
+    dialogue: Wait what was that?
   - pose: 1
-    dialogue: Got the shot!
+    dialogue: Hm?
+  - pose: 0
+    dialogue: It's like I just got into the flow of the music.
+  - pose: 1
+    dialogue: That's exactly what that was, you got in the flow!
+  - pose: 1
+    dialogue: It helped a lot too cause I got the shot!
   - pose: 0
     dialogue: "I always hate how I look in photos. Those aren\u2019t too bad though.
       You must have got my good side. \r\n"
