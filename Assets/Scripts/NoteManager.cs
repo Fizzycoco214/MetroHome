@@ -9,11 +9,14 @@ public class NoteManager : MonoBehaviour
     public GameObject notePrefab;
     public Song currentSong;
     bool songStarted = false;
-
+    AudioSource audioSource;
     public float noteSpeed = 2;
+
+    float startTime;
     // Start is called before the first frame update
     void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         inputManager = FindObjectOfType<PianoInput>();
         startSong();
     }
@@ -21,35 +24,38 @@ public class NoteManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         if (!songStarted)
             return;
-        
-        foreach (Song.Note note in currentSong.songNotes)
+
+        if(!audioSource.isPlaying)
         {
-            if(note.time < Time.time && !note.havePlayed)
-            {
-                print("spawning note");
-                SpawnNote(note.note, note.duration);
-                note.havePlayed = true;
-            }
+            print("song ended");
+            songStarted = false;
         }
     }
 
-    public void SpawnNote(Song.Notes note, float duration)
+    public void SpawnNote(Song.Notes note, float time, float duration)
     {
-       GameObject curNote = Instantiate(notePrefab, inputManager.keys[(int)note].keyObject.transform.position + new Vector3(0,10,0), Quaternion.identity);
-       curNote.GetComponent<SpriteRenderer>().size = new Vector2(1, duration * noteSpeed);
-       curNote.GetComponent<BoxCollider2D>().size = new Vector2(curNote.transform.localScale.x, duration * noteSpeed);
+       GameObject curNote = Instantiate(notePrefab, inputManager.keys[(int)note].keyObject.transform.position + new Vector3(0,time * noteSpeed + (2.706f / 2f),0), Quaternion.identity);
+       curNote.GetComponent<SpriteRenderer>().size = new Vector2(0.3f, duration * noteSpeed);
+       curNote.GetComponent<BoxCollider2D>().size = new Vector2(0.3f, duration * noteSpeed);
        curNote.GetComponent<SpawnedNote>().speed = noteSpeed;
-       curNote.transform.position += new Vector3(0, duration / 2, 0);
+       curNote.transform.position += new Vector3(0, duration * noteSpeed / 2f, 0);
+
+         curNote.transform.position -= new Vector3(0, noteSpeed / 2, 0);
+       
     }
 
     public void startSong()
     {
+        startTime = Time.time;
         songStarted = true;
+        audioSource.clip = currentSong.music;
+        audioSource.Play();
         foreach (Song.Note note in currentSong.songNotes)
         {
-            note.havePlayed = false;
+            SpawnNote(note.note, note.time, note.duration);
         }
     }
 }

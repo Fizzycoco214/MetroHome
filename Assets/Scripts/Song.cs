@@ -32,5 +32,6 @@ public class Song : ScriptableObject
         public bool havePlayed = false;
     }
 
+    public AudioClip music;
     public Note[] songNotes;
 }

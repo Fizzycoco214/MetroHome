@@ -1,0 +1,164 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 248a2ff6eab550244931e5836e9a94bb, type: 3}
+  m_Name: Photographer
+  m_EditorClassIdentifier: 
+  music: {fileID: 8300000, guid: 8a9c8740f5c8c4f40a3344a935250f18, type: 3}
+  songNotes:
+  - time: 12
+    duration: 1.5
+    note: 5
+    havePlayed: 1
+  - time: 13.5
+    duration: 1.5
+    note: 9
+    havePlayed: 1
+  - time: 15
+    duration: 1.5
+    note: 5
+    havePlayed: 1
+  - time: 16.5
+    duration: 1.5
+    note: 2
+    havePlayed: 1
+  - time: 18
+    duration: 0.75
+    note: 4
+    havePlayed: 1
+  - time: 18.75
+    duration: 0.75
+    note: 9
+    havePlayed: 1
+  - time: 19.5
+    duration: 0.75
+    note: 4
+    havePlayed: 1
+  - time: 20.25
+    duration: 0.75
+    note: 2
+    havePlayed: 1
+  - time: 21
+    duration: 1.5
+    note: 0
+    havePlayed: 1
+  - time: 22.5
+    duration: 1.5
+    note: 10
+    havePlayed: 1
+  - time: 24
+    duration: 0.75
+    note: 9
+    havePlayed: 1
+  - time: 24.75
+    duration: 0.75
+    note: 7
+    havePlayed: 1
+  - time: 25.5
+    duration: 0.75
+    note: 8
+    havePlayed: 1
+  - time: 26.25
+    duration: 0.75
+    note: 4
+    havePlayed: 1
+  - time: 27
+    duration: 1.5
+    note: 3
+    havePlayed: 1
+  - time: 28.5
+    duration: 1.5
+    note: 11
+    havePlayed: 1
+  - time: 30
+    duration: 1.5
+    note: 3
+    havePlayed: 1
+  - time: 31.5
+    duration: 1.5
+    note: 5
+    havePlayed: 1
+  - time: 33
+    duration: 1.125
+    note: 6
+    havePlayed: 1
+  - time: 34.125
+    duration: 0.187
+    note: 9
+    havePlayed: 1
+  - time: 34.312
+    duration: 0.187
+    note: 4
+    havePlayed: 1
+  - time: 34.5
+    duration: 1.5
+    note: 2
+    havePlayed: 1
+  - time: 36
+    duration: 0.75
+    note: 6
+    havePlayed: 1
+  - time: 36.75
+    duration: 0.75
+    note: 7
+    havePlayed: 1
+  - time: 37.312
+    duration: 0.187
+    note: 7
+    havePlayed: 1
+  - time: 37.5
+    duration: 0.75
+    note: 8
+    havePlayed: 1
+  - time: 38.25
+    duration: 0.75
+    note: 9
+    havePlayed: 1
+  - time: 39
+    duration: 1.5
+    note: 6
+    havePlayed: 1
+  - time: 40.5
+    duration: 1.5
+    note: 4
+    havePlayed: 1
+  - time: 42
+    duration: 0.375
+    note: 7
+    havePlayed: 1
+  - time: 42.375
+    duration: 0.75
+    note: 9
+    havePlayed: 1
+  - time: 43.5
+    duration: 0.188
+    note: 8
+    havePlayed: 1
+  - time: 43.688
+    duration: 0.188
+    note: 6
+    havePlayed: 1
+  - time: 43.875
+    duration: 1.125
+    note: 0
+    havePlayed: 1
+  - time: 45
+    duration: 1.5
+    note: 7
+    havePlayed: 1
+  - time: 46.5
+    duration: 1.125
+    note: 2
+    havePlayed: 1
+  - time: 47.625
+    duration: 0.375
+    note: 11
+    havePlayed: 1

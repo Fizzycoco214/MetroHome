@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEditor.Rendering;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour
@@ -19,6 +20,8 @@ public class DialogueManager : MonoBehaviour
 
     float percentThroughDialogue = 0;
     public float textSpeed;
+
+    public UnityEvent onDialogueEnd;
 
 
     CanvasGroup group;
@@ -55,6 +58,7 @@ public class DialogueManager : MonoBehaviour
             if(inDialogue && dialogueNum >= curDialogue.dialogue.Length)
             {
                 inDialogue = false;
+                onDialogueEnd.Invoke();
             }
         }
 
