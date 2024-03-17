@@ -24,8 +24,8 @@ MonoBehaviour:
   - pose: 0
     dialogue: This might sound a bit strange, but can I play something for you?
   - pose: 0
-    dialogue: I just started a music class and I'm wanting to practice.
+    dialogue: I just started this music class and suppost to get out and show some
+      other people what I've got.
   - pose: 1
-    dialogue: 'On that keyboard? Sure. Come walk with me while I try to find a shot.
-
-'
+    dialogue: On that keyboard? Sure. Come walk with me. We'll both try to get into
+      our groove.

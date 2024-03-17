@@ -22,13 +22,14 @@ MonoBehaviour:
   - pose: 1
     dialogue: That's exactly what that was, you got in the flow!
   - pose: 1
-    dialogue: It helped a lot too cause I got the shot!
+    dialogue: It helped a lot too! I finally got the shot!
   - pose: 0
-    dialogue: "I always hate how I look in photos. Those aren\u2019t too bad though.
-      You must have got my good side. \r\n"
+    dialogue: "Hey, those are great! \nI always look weird in photos, you must have
+      got my good side! \r\n"
   - pose: 1
     dialogue: 'Damn right I got your good side! This is just what I needed! '
   - pose: 1
-    dialogue: "Seeing you like that, it\u2019s really inspiring man. Thank you."
+    dialogue: "Seeing you in your element, it\u2019s really inspiring man. Thanks
+      a lot!"
   - pose: 0
     dialogue: "I\u2019m glad I could help!"
